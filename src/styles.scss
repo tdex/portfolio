@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.body-full {
+  padding: 0;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.hscroll {
+  overflow-x: scroll;
+}
+
+.vscroll {
+  overflow-y: scroll;
+}
+
+.no-outline {
+  outline: 0 !important;
+}

@@ -1,0 +1,19 @@
+<div class="container-fluid body-full">
+  <app-menubar></app-menubar>
+</div>
+
+<div class="container-fluid p-3">
+  <app-breadcrumb></app-breadcrumb>
+
+  <section class="d-flex flex-column flex-md-row">
+    <app-sidebar></app-sidebar>
+
+    <article class="w-100 pl-sm-0 pl-md-3 pr-sm-0 pr-sm-0">
+      <router-outlet></router-outlet>
+    </article>
+  </section>
+</div>
+
+<div class="container-fluid body-full">
+  <app-footer></app-footer>
+</div>

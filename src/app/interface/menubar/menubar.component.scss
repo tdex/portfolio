@@ -11,4 +11,10 @@ nav.navbar {
   .navbar-toggler-icon {
     font-size: 1.5em;
   }
+
+  @media screen and (max-width: 480px) {
+    .tittle{
+      font-size: 1rem;
+    }
+  }
 }

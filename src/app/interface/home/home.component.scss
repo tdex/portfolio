@@ -1,0 +1,14 @@
+.home {
+  align-items: center;
+
+  .profile-picture {
+    img {
+      border-radius: 50%; 
+      width: 12rem;
+    }
+  }
+
+  .descricao {
+    padding: 1rem 2rem;
+  }
+}

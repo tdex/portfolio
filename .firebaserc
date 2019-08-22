@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "portfolio-e2320"
+    "default": "portfolio-e2320",
+    "tarcisio": "portfolio-e2320"
+  },
+  "targets": {
+    "portfolio-e2320": {
+      "hosting": {
+        "tarcisio": [
+          "tarcisio"
+        ]
+      }
+    }
   }
 }

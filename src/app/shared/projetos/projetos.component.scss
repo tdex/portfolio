@@ -1,0 +1,13 @@
+.projetos {
+  flex-wrap: wrap;
+  
+  .card {
+    width: 23.2rem;
+    margin: 0 1rem 1rem 0
+  }
+
+  .card-img-top {
+    height: 12rem;
+    background-size: cover;
+  }
+}
